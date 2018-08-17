@@ -1,0 +1,12 @@
+C:\Users\lflorian\source\repos\CRUD-Generico\Pruebas\bin\Debug\Pruebas.exe.config
+C:\Users\lflorian\source\repos\CRUD-Generico\Pruebas\bin\Debug\Pruebas.exe
+C:\Users\lflorian\source\repos\CRUD-Generico\Pruebas\bin\Debug\Pruebas.pdb
+C:\Users\lflorian\source\repos\CRUD-Generico\Pruebas\bin\Debug\Clases.dll
+C:\Users\lflorian\source\repos\CRUD-Generico\Pruebas\bin\Debug\Clases.pdb
+C:\Users\lflorian\source\repos\CRUD-Generico\Pruebas\obj\Debug\Pruebas.csprojResolveAssemblyReference.cache
+C:\Users\lflorian\source\repos\CRUD-Generico\Pruebas\obj\Debug\Pruebas.csproj.CoreCompileInputs.cache
+C:\Users\lflorian\source\repos\CRUD-Generico\Pruebas\obj\Debug\Pruebas.csproj.CopyComplete
+C:\Users\lflorian\source\repos\CRUD-Generico\Pruebas\obj\Debug\Pruebas.exe
+C:\Users\lflorian\source\repos\CRUD-Generico\Pruebas\obj\Debug\Pruebas.pdb
+C:\Users\lflorian\source\repos\CRUD-Generico\Pruebas\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lflorian\source\repos\CRUD-Generico\Pruebas\bin\Debug\Newtonsoft.Json.xml

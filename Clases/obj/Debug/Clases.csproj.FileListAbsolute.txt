@@ -1,0 +1,9 @@
+C:\Users\lflorian\source\repos\CRUD-Generico\Clases\bin\Debug\Clases.dll
+C:\Users\lflorian\source\repos\CRUD-Generico\Clases\bin\Debug\Clases.pdb
+C:\Users\lflorian\source\repos\CRUD-Generico\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Users\lflorian\source\repos\CRUD-Generico\Clases\obj\Debug\Clases.csproj.CoreCompileInputs.cache
+C:\Users\lflorian\source\repos\CRUD-Generico\Clases\obj\Debug\Clases.dll
+C:\Users\lflorian\source\repos\CRUD-Generico\Clases\obj\Debug\Clases.pdb
+C:\Users\lflorian\source\repos\CRUD-Generico\Clases\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lflorian\source\repos\CRUD-Generico\Clases\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lflorian\source\repos\CRUD-Generico\Clases\obj\Debug\Clases.csproj.CopyComplete
