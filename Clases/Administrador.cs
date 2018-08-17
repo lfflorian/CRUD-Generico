@@ -23,17 +23,24 @@ namespace Clases
             string RutaFinal = Path.Combine(Ruta, tipoObjecto + ".txt");
             var tabla = File.ReadAllText(RutaFinal);
 
-            //var resultado = JsonConvert.SerializeObject(objeto);
-            //File.AppendAllText(RutaFinal, resultado);
-
-            List<IObjectos> listObjetos = new List<IObjectos>();
-            var array = JsonConvert.DeserializeObject<List<IObjectos>>(tabla);
+            var array = JsonConvert.DeserializeObject<List<object>>(tabla);
+            array.Add(objeto);
+            var resultado = JsonConvert.SerializeObject(array);
+            File.WriteAllText(RutaFinal, resultado);
 
         }
 
-        public void Delete()
+        public void Delete(object objeto)
         {
-            throw new NotImplementedException();
+            string tipoObjecto = objeto.GetType().Name;
+            string RutaFinal = Path.Combine(Ruta, tipoObjecto + ".txt");
+            var tabla = File.ReadAllText(RutaFinal);
+
+            var array = JsonConvert.DeserializeObject<List<object>>(tabla);
+            var objetoSerealizado = JsonConvert.SerializeObject(objeto);
+            //x.ToString() == objetoSerealizado)
+            //var respuesta = array.Select();
+
         }
 
         public void Update()

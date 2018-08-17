@@ -7,3 +7,5 @@ C:\Users\lflorian\source\repos\CRUD-Generico\Clases\obj\Debug\Clases.pdb
 C:\Users\lflorian\source\repos\CRUD-Generico\Clases\bin\Debug\Newtonsoft.Json.dll
 C:\Users\lflorian\source\repos\CRUD-Generico\Clases\bin\Debug\Newtonsoft.Json.xml
 C:\Users\lflorian\source\repos\CRUD-Generico\Clases\obj\Debug\Clases.csproj.CopyComplete
+C:\Users\lflorian\source\repos\CRUD-Generico\Clases\bin\Debug\Json.dll
+C:\Users\lflorian\source\repos\CRUD-Generico\Clases\bin\Debug\Json.pdb

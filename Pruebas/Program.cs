@@ -20,7 +20,7 @@ namespace Pruebas
                 Console.WriteLine(
                         $"{pr.Id}, {pr.Nombre}, {pr.Precio}"
                     );
-                administrador.Add(pr);
+                administrador.Delete(pr);
             });
             
             Console.ReadKey();

@@ -9,7 +9,7 @@ namespace Clases
     public interface IAdministrador
     {
         void Add(object obj);
-        void Delete();
+        void Delete(object objeto);
         void Update();
     }
 }
