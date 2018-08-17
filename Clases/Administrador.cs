@@ -38,8 +38,14 @@ namespace Clases
 
             var array = JsonConvert.DeserializeObject<List<object>>(tabla);
             var objetoSerealizado = JsonConvert.SerializeObject(objeto);
+
             //x.ToString() == objetoSerealizado)
-            //var respuesta = array.Select();
+            array.ForEach(x => {
+            if (x.ToString().Replace("\r\n".ToCharArray()[0],' ') == objetoSerealizado)
+                {
+                    var ecdfa = 0;
+                }
+            });
 
         }
 
