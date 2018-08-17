@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 
 namespace Clases
 {
-    public class Administrador<T> : IAdministrador<T> where T : class
+    public class Administrador : IAdministrador
     {
         public string Ruta { get; set; }
 
@@ -17,27 +17,26 @@ namespace Clases
             Ruta = @"C:\Users\lflorian\source\repos\CRUD-Generico\DataBase";
         }
 
-        public void Add(T entity)
+        public void Add(object objeto)
         {
-            string tipoObjecto = entity.GetType().Name;
+            string tipoObjecto = objeto.GetType().Name;
             string RutaFinal = Path.Combine(Ruta, tipoObjecto + ".txt");
             var tabla = File.ReadAllText(RutaFinal);
-        
-            var array = JsonConvert.DeserializeObject<List<T>>(tabla);
-            var rr = 0;
+
+            //var resultado = JsonConvert.SerializeObject(objeto);
+            //File.AppendAllText(RutaFinal, resultado);
+
+            List<IObjectos> listObjetos = new List<IObjectos>();
+            var array = JsonConvert.DeserializeObject<List<IObjectos>>(tabla);
+
         }
 
-        public IEnumerable<T> All()
+        public void Delete()
         {
             throw new NotImplementedException();
         }
 
-        public void Delete(T entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Update(T entity)
+        public void Update()
         {
             throw new NotImplementedException();
         }

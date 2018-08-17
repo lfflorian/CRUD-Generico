@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Clases
 {
-    public interface IAdministrador<T> where T : class
+    public interface IAdministrador
     {
-        void Add(T entity);
-        void Delete(T entity);
-        void Update(T entity);
-        IEnumerable<T> All();
+        void Add(object obj);
+        void Delete();
+        void Update();
     }
 }

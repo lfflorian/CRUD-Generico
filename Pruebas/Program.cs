@@ -12,7 +12,7 @@ namespace Pruebas
         static void Main(string[] args)
         {
             Listados listado = new Listados();
-            /*Administrador<Task> administrador = new Administrador();
+            Administrador administrador = new Administrador();
 
             var p = listado.GetProductos();
             
@@ -20,8 +20,8 @@ namespace Pruebas
                 Console.WriteLine(
                         $"{pr.Id}, {pr.Nombre}, {pr.Precio}"
                     );
-                administrador.Crear(pr);
-            });*/
+                administrador.Add(pr);
+            });
             
             Console.ReadKey();
         }
